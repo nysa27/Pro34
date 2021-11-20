@@ -103,10 +103,6 @@ function draw() {
 
 }
 
-//Create a sprite for Invisisble ground
-shrubsGroup=new Group();
-obstaclesGroup=new Group();
-
 function spawnShrubs() {
   //write code here to spawn the clouds
   if (frameCount % 150 === 0) {
